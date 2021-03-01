@@ -14,4 +14,3 @@ for i in range(0, len(cryptos)):
     how_much = input("How much {} do you have? ".format(jsonresponse[i][0]["name"]))
     print("You own $ {}".format(round((float(how_much) * prices[i]), 2)))
     print()
-    print()
